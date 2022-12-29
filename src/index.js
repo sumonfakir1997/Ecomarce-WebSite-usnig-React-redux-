@@ -1,17 +1,47 @@
-import React from 'react';
+// import React, { createContext, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import Home from './Pages/Home';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import {store} from "./Store/index";
+
+// export const Photocontext = createContext(null)
+
+// const ContextPhoto = () => {
+  // const [initialState, setInitialState] = useState({
+  //   photos:[]
+  // })
+
+  // useEffect(() => {
+  //   (async () => {
+  //     const response = await fetch ("https://picsum.photos/v2/list?page=2&limit=8");
+  //     const formattedResponse  = response.json();
+  //     setInitialState(state => ({
+  //       ...state,
+  //       photos: formattedResponse
+  //     }));
+  //   })()
+  // }, [])
+  // return <Photocontext.Provider value={{ ...initialState}}>
+  //   <App/>
+  // </Photocontext.Provider>
+// }
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+  <BrowserRouter>
+    <Provider store={store} >
+        <App />
+        {/* <ContextPhoto/> */}
+    </Provider>
+  </BrowserRouter>
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

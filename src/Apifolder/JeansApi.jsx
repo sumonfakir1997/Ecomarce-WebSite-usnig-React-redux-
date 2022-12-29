@@ -1,0 +1,35 @@
+export const JeansApi = [
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/4109798/pexels-photo-4109798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+      title:"jeass",
+      src:"https://images.pexels.com/photos/7327181/pexels-photo-7327181.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    },
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/10648308/pexels-photo-10648308.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    },
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/981619/pexels-photo-981619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/1346187/pexels-photo-1346187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        title:"jeans",
+        src:"https://images.pexels.com/photos/2267793/pexels-photo-2267793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    }
+]
+
