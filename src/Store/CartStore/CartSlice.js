@@ -55,7 +55,7 @@ export const cartSlice = createSlice({
         state.CartAdd.forEach((additem) => {
 // new add 
         amount += additem.amount;
-        total += additem.price  * cartQuantity;
+        total += additem.price  ;
 
       })
       });
