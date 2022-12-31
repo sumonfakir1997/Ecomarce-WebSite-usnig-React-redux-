@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Ecomarce-WebSite-usnig-React-redux-/static/css/main.1abe752b.css",
+    "main.js": "/Ecomarce-WebSite-usnig-React-redux-/static/js/main.46d31098.js",
+    "static/media/teee shairt.png": "/Ecomarce-WebSite-usnig-React-redux-/static/media/teee shairt.94e4d474b206165ebba4.png",
+    "index.html": "/Ecomarce-WebSite-usnig-React-redux-/index.html",
+    "main.1abe752b.css.map": "/Ecomarce-WebSite-usnig-React-redux-/static/css/main.1abe752b.css.map",
+    "main.46d31098.js.map": "/Ecomarce-WebSite-usnig-React-redux-/static/js/main.46d31098.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1abe752b.css",
+    "static/js/main.46d31098.js"
+  ]
+}
